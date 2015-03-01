@@ -1,0 +1,14 @@
+Source: cb-exit
+Section: misc
+Priority: extra
+Maintainer: Philip Newborough <corenominal@corenominal.org>
+Build-Depends: debhelper (>= 5.0.0)
+Standards-Version: 3.9.1
+Homepage: http://crunchbang.org/
+
+Package: cb-exit
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-gtk2, consolekit, upower
+Description: CrunchBang logout script.
+ GUI logout/shutdown/restart/suspend script.
+ .
